@@ -1,0 +1,103 @@
+{
+  "id": "6014bb9b-0816-4746-a36c-99abfd0d423f",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/home/my-courses/learning/",
+  "tests": [{
+    "id": "eb161c5b-7d6d-4ac5-9571-42ce15bff70c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "7a8d4a34-e3bc-4b4a-918f-a69bf6fecdf4",
+    "name": "changing resolution of videos",
+    "commands": [{
+      "id": "f8eb9e8a-d490-4d4e-b019-b9fd581726fa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/home/my-courses/learning/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1eae1a9-2932-4a90-8b5c-d1ba3c843b1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91958540-e1d5-40ba-903b-09765646fa9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JavaScript Fundamentals",
+      "targets": [
+        ["linkText=JavaScript Fundamentals", "linkText"],
+        ["css=.ud-heading-md > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JavaScript Fundamentals')]", "xpath:link"],
+        ["xpath=//div[@id='tabs--1-content-0']/div/div/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course-dashboard-redirect/?course_id=548068')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JavaScript Fundamentals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac9fcd88-8553-4aef-a09c-d879de7f95fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1aa6da3-e582-4334-8271-dd8a0071e3cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-icon-xxlarge > use",
+      "targets": [
+        ["css=.ud-icon-xxlarge > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "33c20052-3068-47aa-9dac-354e1383ad01",
+      "comment": "",
+      "command": "click",
+      "target": "css=#control-bar-dropdown-trigger--173 > .ud-icon",
+      "targets": [
+        ["css=#control-bar-dropdown-trigger--173 > .ud-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a084a112-cf20-4b44-a205-2d5f30d0f3d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#control-bar-dropdown-menu--174 li:nth-child(2) .ud-block-list-item-content",
+      "targets": [
+        ["css=#control-bar-dropdown-menu--174 li:nth-child(2) .ud-block-list-item-content", "css:finder"],
+        ["xpath=//div[@id='control-bar-dropdown-menu--174']/ul/li/ul/li[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/div/div/ul/li/ul/li[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8043efda-5de9-448b-9e35-27112e667ada",
+      "comment": "",
+      "command": "click",
+      "target": "id=playerId__7397000--14_html5_api",
+      "targets": [
+        ["id=playerId__7397000--14_html5_api", "id"],
+        ["css=#playerId__7397000--14_html5_api", "css:finder"],
+        ["xpath=//video[@id='playerId__7397000--14_html5_api']", "xpath:attributes"],
+        ["xpath=//div[@id='playerId__7397000--14']/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "34a50e6e-07e8-4d1d-b0ca-32ea52f51fb8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb161c5b-7d6d-4ac5-9571-42ce15bff70c"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}

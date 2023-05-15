@@ -1,0 +1,287 @@
+{
+  "id": "94dad3bb-1626-4543-8a2e-da62d927dc44",
+  "version": "2.0",
+  "name": "search ",
+  "url": "https://www.udemy.com/",
+  "tests": [{
+    "id": "f94c836c-860b-4be3-8580-c77a8761ca06",
+    "name": "search a course",
+    "commands": [{
+      "id": "fa87074f-383a-4052-a75d-4b2a5fda6d79",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16e0a8f2-8e21-4bfb-91d3-69ed91d0280f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72f05b80-7f59-4b75-8f37-9e231c82b433",
+      "comment": "",
+      "command": "click",
+      "target": "id=u121-search-form-autocomplete--3",
+      "targets": [
+        ["id=u121-search-form-autocomplete--3", "id"],
+        ["name=q", "name"],
+        ["css=#u121-search-form-autocomplete--3", "css:finder"],
+        ["xpath=//input[@id='u121-search-form-autocomplete--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[2]/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf6ef03a-e4ff-433f-a722-8789813e827f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[2]",
+      "targets": [
+        ["id=u121-search-form-autocomplete--3", "id"],
+        ["name=q", "name"],
+        ["css=#u121-search-form-autocomplete--3", "css:finder"],
+        ["xpath=//input[@id='u121-search-form-autocomplete--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[2]/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "html"
+    }, {
+      "id": "725857d8-2fa2-4c84-925d-9964b08d0477",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input[2]",
+      "targets": [
+        ["id=u188-search-form-autocomplete--3", "id"],
+        ["name=q", "name"],
+        ["css=#u188-search-form-autocomplete--3", "css:finder"],
+        ["xpath=//input[@id='u188-search-form-autocomplete--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[3]/div/div[4]/div[2]/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ca620aac-839f-47ad-92fb-cc94f48966e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-container",
+      "targets": [
+        ["css=.ud-container", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2495e5-689d-40e1-9e19-d2de958c23b6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7202fc59-64c3-45a4-8ad4-e9b515023fed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45f717c6-9a7a-4b80-b820-80b234612c0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25d54318-0417-43bc-a8c2-f2b926234112",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-component--search--search",
+      "targets": [
+        ["css=.ud-component--search--search", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "addd74a1-f761-4b1b-8208-ac57f3b67afa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb2e2b7-5488-43cb-b228-92c110854c1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ad62f32-577f-432f-bcb1-d7707d284ac3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be820f4c-e571-4e92-b4ce-0e5d4b70214d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9d33c9a-c06a-4d50-b505-002fa46b82cd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.search--header-title--Et0Ha",
+      "targets": [
+        ["css=.search--header-title--Et0Ha", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'10,000 results for “html”')]", "xpath:innerText"]
+      ],
+      "value": "10,000 results for “html”"
+    }, {
+      "id": "ebee9acc-a43d-43a1-9450-fea56573eeaf",
+      "comment": "",
+      "command": "click",
+      "target": "id=u14-search-form-autocomplete--3",
+      "targets": [
+        ["id=u14-search-form-autocomplete--3", "id"],
+        ["name=q", "name"],
+        ["css=#u14-search-form-autocomplete--3", "css:finder"],
+        ["xpath=//input[@id='u14-search-form-autocomplete--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[2]/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0abef95-ef9a-463c-b0e8-60c9a9042c52",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ud-btn-large:nth-child(4)",
+      "targets": [
+        ["css=.ud-btn-large:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27e3479-4a1b-4d66-aa1a-2fa199bfec40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//body[@id='udemy']/div/div/div[4]/nav/button",
+      "targets": [
+        ["id=u14-popper-trigger--1", "id"],
+        ["css=#u14-popper-trigger--1", "css:finder"],
+        ["xpath=//button[@id='u14-popper-trigger--1']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/nav/button", "xpath:idRelative"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2cc7496-3464-4fc6-96ca-934d80f0f2fb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=u14-popper-trigger--1",
+      "targets": [
+        ["id=u14-popper-trigger--1", "id"],
+        ["css=#u14-popper-trigger--1", "css:finder"],
+        ["xpath=//button[@id='u14-popper-trigger--1']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/nav/button", "xpath:idRelative"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c48b40fe-3b97-4b73-b536-cb8fe0f42534",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--flex-middle--2QeVR > img",
+      "targets": [
+        ["css=.header--flex-middle--2QeVR > img", "css:finder"],
+        ["xpath=//img[@alt='Udemy']", "xpath:img"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0a63673-d5a8-46fd-b25c-d117c8abff6f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//li[3]/a",
+      "targets": [
+        ["linkText=Finance", "linkText"],
+        ["css=.link-bar--subcategory--3njdH:nth-child(3) > .ud-btn", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/nav/ul/li[3]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/finance-and-accounting/finance-management/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bff739b-bfa4-492a-8c64-c69410173cfb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Finance",
+      "targets": [
+        ["linkText=Finance", "linkText"],
+        ["css=.link-bar--subcategory--3njdH:nth-child(3) > .ud-btn", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/nav/ul/li[3]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/finance-and-accounting/finance-management/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "13be74df-8e37-4975-b134-2a0be8308c52",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/courses/search/?src=ukw&q=html"],
+  "plugins": []
+}

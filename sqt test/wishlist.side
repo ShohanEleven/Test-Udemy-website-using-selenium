@@ -1,0 +1,109 @@
+{
+  "id": "5e05b4ed-e6cf-4095-a75f-963a1d4e5099",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/home/my-courses/learning/",
+  "tests": [{
+    "id": "dade440a-2259-4d46-b56d-fd7af0859fe4",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "3d6c5651-5f26-49d1-b543-9a67ecac53b5",
+    "name": "wishlist",
+    "commands": [{
+      "id": "9093e1c6-7c0e-4918-9295-9aa4e63051ab",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/home/my-courses/learning/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8c0d8e6-056f-4ee8-8d55-f46ed6405023",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "994aa922-121e-4bfe-bc7e-7906394d969e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabs--1-tab-2 > span",
+      "targets": [
+        ["css=#tabs--1-tab-2 > span", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-2']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wishlist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a67549d-c43a-485a-89ea-7db486b79245",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complete Python Developer in 2023: Zero to Mastery",
+      "targets": [
+        ["linkText=Complete Python Developer in 2023: Zero to Mastery", "linkText"],
+        ["css=.ud-heading-md > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complete Python Developer in 2023: Zero to Mastery')]", "xpath:link"],
+        ["xpath=//div[@id='tabs--1-content-2']/div/div[2]/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course/complete-python-developer-zero-to-mastery/')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complete Python Developer in 2023: Zero to Mastery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "707cf9f3-2d0d-4f77-b299-9f3264e83f83",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,596)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "394ec486-6169-4145-b521-83d6bf6f740a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,962)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f14ac488-edc4-4666-944f-e1b97d2f298c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1161)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fbf6918-530f-494b-8087-4fe884756aa4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dark-background-inner-position-container > div",
+      "targets": [
+        ["css=.dark-background-inner-position-container > div", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc5cb363-b20a-412e-afc1-670dbdf8e966",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.clp-lead__headline",
+      "targets": [
+        ["css=.clp-lead__headline", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div[3]/div/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "How to become a Python 3 Developer and get hired! Build 12+ projects, learn Web Development, Machine Learning + more!"
+    }]
+  }],
+  "suites": [{
+    "id": "d2279b9c-f0bf-4853-8579-5ef4c660193a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dade440a-2259-4d46-b56d-fd7af0859fe4"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/course/python-the-complete-python-developer-course/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}

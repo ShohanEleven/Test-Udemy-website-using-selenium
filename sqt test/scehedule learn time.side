@@ -1,0 +1,268 @@
+{
+  "id": "4dfdd4b0-f9dd-437e-80ce-08a12746b751",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/home/my-courses/learning/",
+  "tests": [{
+    "id": "67380619-b51d-43ab-a63a-d5fd6189ae94",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "eb0a5074-a3f6-439d-9fca-e69c37b4e538",
+    "name": "Schedule learning time",
+    "commands": [{
+      "id": "669b890e-289f-4d13-af88-0a04053340da",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/home/my-courses/learning/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05b473bf-9dec-4db8-b91c-a2bec11cb3ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "342abe73-1ad6-463c-8979-0a0842b63a44",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=tabs--1-tab-4",
+      "targets": [
+        ["id=tabs--1-tab-4", "id"],
+        ["linkText=Learning tools", "linkText"],
+        ["css=#tabs--1-tab-4", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-4']", "xpath:attributes"],
+        ["xpath=//div[@id='scroll-port--2']/div[5]/div/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/learning-tools/')]", "xpath:href"],
+        ["xpath=//div[5]/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learning tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9795f3-1106-4c9e-80d7-1ddd46274539",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=tabs--1-tab-4",
+      "targets": [
+        ["id=tabs--1-tab-4", "id"],
+        ["linkText=Learning tools", "linkText"],
+        ["css=#tabs--1-tab-4", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-4']", "xpath:attributes"],
+        ["xpath=//div[@id='scroll-port--2']/div[5]/div/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/learning-tools/')]", "xpath:href"],
+        ["xpath=//div[5]/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learning tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5840043-0e0e-4fa1-9643-450ff7dff97d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#tabs--1-tab-4 > span",
+      "targets": [
+        ["css=#tabs--1-tab-4 > span", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-4']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Learning tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fae50c2-1827-48a9-8a72-2b15724b5e05",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabs--1-tab-4 > span",
+      "targets": [
+        ["css=#tabs--1-tab-4 > span", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-4']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Learning tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6084ede2-9dd7-47f4-9b43-87e0f7836508",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#tabs--1-tab-4 > span",
+      "targets": [
+        ["css=#tabs--1-tab-4 > span", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-4']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/h2/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Learning tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4958e126-1b56-4ced-90da-5807429ec597",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-btn-brand > span",
+      "targets": [
+        ["css=.ud-btn-brand > span", "css:finder"],
+        ["xpath=//div[@id='tabs--1-content-4']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Schedule learning time')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc0efd96-5151-4d27-bd27-d092dd057352",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-toggle-input-container:nth-child(3)",
+      "targets": [
+        ["css=.ud-toggle-input-container:nth-child(3)", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/fieldset/label", "xpath:idRelative"],
+        ["xpath=//fieldset/label", "xpath:position"],
+        ["xpath=//label[contains(.,'JavaScript Fundamentals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1db87c10-4d64-4af0-9026-e8c6df92ec1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.learning-reminder-form--button-container--1z-UD > .ud-btn",
+      "targets": [
+        ["css=.learning-reminder-form--button-container--1z-UD > .ud-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "546f8e6c-aa79-4d2c-a7ea-06390a052737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.learning-reminder-form--form-group-container--2cBY-:nth-child(4) .ud-btn:nth-child(4) > span",
+      "targets": [
+        ["css=.learning-reminder-form--form-group-container--2cBY-:nth-child(4) .ud-btn:nth-child(4) > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/fieldset/ul/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Daily')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3025e34a-0552-492f-9dd7-dd6192b19e51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-btn-secondary:nth-child(4) > span",
+      "targets": [
+        ["css=.ud-btn-secondary:nth-child(4) > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/fieldset[2]/ul/label[2]/span", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/ul/label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'10 min')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e25e751-c9f9-40fe-8296-80ce3e8d6746",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input",
+      "targets": [
+        ["id=u134-form-group--60", "id"],
+        ["css=#u134-form-group--60", "css:finder"],
+        ["xpath=//input[@id='u134-form-group--60']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d357033c-a77d-4cdc-b7ed-304f42136ccb",
+      "comment": "",
+      "command": "click",
+      "target": "id=u134-form-group--60",
+      "targets": [
+        ["id=u134-form-group--60", "id"],
+        ["css=#u134-form-group--60", "css:finder"],
+        ["xpath=//input[@id='u134-form-group--60']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36363803-1d2e-4089-ab87-92abe8018b8e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input",
+      "targets": [
+        ["id=u134-form-group--60", "id"],
+        ["css=#u134-form-group--60", "css:finder"],
+        ["xpath=//input[@id='u134-form-group--60']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6712c3eb-0be5-4e25-9952-5df27e52b4cb",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input",
+      "targets": [
+        ["id=u134-form-group--60", "id"],
+        ["css=#u134-form-group--60", "css:finder"],
+        ["xpath=//input[@id='u134-form-group--60']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "00:00"
+    }, {
+      "id": "7d8e703a-74a5-4d1a-a372-709ee40ec1cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.learning-reminder-form--button-container--1z-UD > .ud-btn-primary > span",
+      "targets": [
+        ["css=.learning-reminder-form--button-container--1z-UD > .ud-btn-primary > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[8]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c106669e-aa69-4286-aa7e-f5cead2453d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.learning-reminder-form--reminder-info--3E1Rl > div",
+      "targets": [
+        ["css=.learning-reminder-form--reminder-info--3E1Rl > div", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecc6d2ac-57a1-44ab-9587-66f94913c1b4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div:nth-child(5) > span",
+      "targets": [
+        ["css=div:nth-child(5) > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[3]/div/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'10 min at 12:00 AM')]", "xpath:innerText"]
+      ],
+      "value": "10 min at 12:00 AM"
+    }, {
+      "id": "25a0b3f9-ad4d-428a-80d5-e1b2af1ee8fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.learning-reminder-form--button-container--1z-UD > .ud-btn-primary",
+      "targets": [
+        ["css=.learning-reminder-form--button-container--1z-UD > .ud-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[12]/div/div[2]/div[6]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6c8561f6-8966-424b-866d-1fe7a921b4f8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["67380619-b51d-43ab-a63a-d5fd6189ae94"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}

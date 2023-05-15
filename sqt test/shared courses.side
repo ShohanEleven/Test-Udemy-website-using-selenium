@@ -1,0 +1,150 @@
+{
+  "id": "5e05b4ed-e6cf-4095-a75f-963a1d4e5099",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/",
+  "tests": [{
+    "id": "dade440a-2259-4d46-b56d-fd7af0859fe4",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "82dffe6d-283f-4607-b34b-e463cd6dd7b0",
+    "name": "share courses",
+    "commands": [{
+      "id": "f80aadda-54c5-44ff-b493-8318b5bbc9b4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3be91b78-b3f8-4cf4-b36d-50f1521471f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3b7a9e-0da1-4273-b4fe-6c8cd93f0af2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,635)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b05da9a-b4d5-415d-a727-abeedf26d5db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,732)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2acfa7fa-bcc8-4eb3-886e-ec60283db16e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#u114-popper-trigger--92 a",
+      "targets": [
+        ["css=#u114-popper-trigger--92 a", "css:finder"],
+        ["xpath=//div[@id='u114-popper-trigger--92']/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course/100-days-of-code/')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bd65054-f291-4dfa-aa73-cfd9989a2ce6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,381)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9e516b0-dfe3-4956-8641-26c4e6bc2f1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar-container--purchase-section--2DONZ .generic-purchase-section--ctas--3dxVF .ud-btn:nth-child(1) > span",
+      "targets": [
+        ["css=.sidebar-container--purchase-section--2DONZ .generic-purchase-section--ctas--3dxVF .ud-btn:nth-child(1) > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div[2]/div/div[2]/div/div[2]/div/div/div[6]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23bc9b0d-9ab9-47c6-bb87-df95217e3871",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-btn-large:nth-child(4)",
+      "targets": [
+        ["css=.ud-btn-large:nth-child(4)", "css:finder"],
+        ["xpath=(//button[@type='button'])[92]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[13]/div/div[2]/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7472668d-7d27-4c10-ac28-866ff9ebccc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=u13-modal-title--39",
+      "targets": [
+        ["id=u13-modal-title--39", "id"],
+        ["css=#u13-modal-title--39", "css:finder"],
+        ["xpath=//h2[@id='u13-modal-title--39']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[13]/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Share via email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a44f1378-e611-4261-ae71-39ec6588c57b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h2[contains(.,'Share via email')]",
+      "targets": [
+        ["id=u13-modal-title--39", "id"],
+        ["css=#u13-modal-title--39", "css:finder"],
+        ["xpath=//h2[@id='u13-modal-title--39']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div[13]/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Share via email')]", "xpath:innerText"]
+      ],
+      "value": "Share via email"
+    }, {
+      "id": "fd292f4d-573a-4d96-a4f9-a9ee88672188",
+      "comment": "",
+      "command": "//click",
+      "target": "css=#u13-form-group--140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0eb6b9ae-517d-4a98-8abf-0ca0d2ad6214",
+      "comment": "",
+      "command": "//type",
+      "target": "id=u133-form-group--98",
+      "targets": [],
+      "value": "hasanmahamudantor@gmail.com"
+    }, {
+      "id": "4c67187e-74de-4a12-ae19-368dca5b56ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-btn-large:nth-child(3) > span",
+      "targets": [
+        ["css=.ud-btn-large:nth-child(3) > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[13]/div/div[2]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Send')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d2279b9c-f0bf-4853-8579-5ef4c660193a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dade440a-2259-4d46-b56d-fd7af0859fe4"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/course/python-the-complete-python-developer-course/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}

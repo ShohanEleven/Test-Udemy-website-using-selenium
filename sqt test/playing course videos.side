@@ -1,0 +1,172 @@
+{
+  "id": "ec033331-6b49-4c39-a82e-de9c29b9d759",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com",
+  "tests": [{
+    "id": "1ced6857-f477-4620-8087-acba100600b1",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "93f8a469-ab9d-4454-bf5e-c6b9e75d3593",
+    "name": "playing course videos",
+    "commands": [{
+      "id": "8788857c-badf-4391-a7bb-8bec1337428c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11e7dd13-0e67-4aea-8ff3-ee9461a1b981",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3df9478-6767-43df-88fa-36a056ea87a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927564af-c0f6-448d-945d-34261e07ed7a",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "id=u224-popper-trigger--13",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18369b4e-7832-4eed-a85e-e7383734fca4",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "id=u224-popper-trigger--13",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f18772-a772-46c3-b9cb-82e0f2e80c3d",
+      "comment": "",
+      "command": "//click",
+      "target": "css=#u224-popper-trigger--13 > .ud-text-sm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7f1cec9-6d11-4ae0-b264-dd0585595a21",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=JavaScript Fundamentals",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eb583cb-a8fd-44f2-ab9e-a132626ed1fb",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=#accordion-panel-title--129 .truncate-with-tooltip--ellipsis--2-jEx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c16828d3-a574-4c46-9f10-847bcbc11d24",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=#accordion-panel-title--131 .truncate-with-tooltip--ellipsis--2-jEx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d18bfc0-d8db-477c-9a84-0a7c06434c7c",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=#accordion-panel-title--131 .truncate-with-tooltip--ellipsis--2-jEx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e90c1d66-2efb-4d0e-bc57-81e70568eaf4",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.accordion-panel-module--panel--3_kkG:nth-child(6) .section--section-heading--2k6aW > .section--flex--1MW7w",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4b076e0-4c3d-448c-828c-0cd673e9ba9f",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.accordion-panel-module--panel--3_kkG:nth-child(4) .curriculum-item-link--curriculum-item--KX9MD:nth-child(1) .curriculum-item-link--bottom-row--1j052",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd8627f4-e9e1-4546-a0d2-a80974a57fd0",
+      "comment": "",
+      "command": "//runScript",
+      "target": "window.scrollTo(0,56)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1687353f-b1f7-46f1-966d-733bc05b5c3a",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.progress-bar--load-progress--2m7ts",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8163fa0b-af12-45a9-979c-bd45576c39d7",
+      "comment": "",
+      "command": "//click",
+      "target": "id=playerId__7198138--22_html5_api",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5903564e-2975-4d06-9b78-80de47b8a4ca",
+      "comment": "",
+      "command": "//mouseDownAt",
+      "target": "css=.header--flex--2ziU4:nth-child(2)",
+      "targets": [],
+      "value": "61.34375,19.703125"
+    }, {
+      "id": "8fb3a4d3-1ec7-4995-8375-9c7f02460d09",
+      "comment": "",
+      "command": "//mouseMoveAt",
+      "target": "css=.header--flex--2ziU4:nth-child(2)",
+      "targets": [],
+      "value": "61.34375,19.703125"
+    }, {
+      "id": "98340def-197c-4cbd-92b7-5b09e99f10c9",
+      "comment": "",
+      "command": "//mouseUpAt",
+      "target": "css=.header--flex--2ziU4:nth-child(2)",
+      "targets": [],
+      "value": "61.34375,19.703125"
+    }, {
+      "id": "f07a065d-131c-4520-9b19-b6230c3b09d7",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.header--flex--2ziU4:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "775b29cf-b3a6-4655-a153-f71475599d91",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.sidebar--sidebar-header--3RQk_",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ba3f708-221f-4fbf-92e4-5f22fb1e6db3",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=.sidebar--sidebar-header--3RQk_ > .ud-heading-md:nth-child(1)",
+      "targets": [],
+      "value": "Course content"
+    }]
+  }],
+  "suites": [{
+    "id": "b663d4ca-f4f7-4045-b1ac-f34285094969",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1ced6857-f477-4620-8087-acba100600b1"]
+  }],
+  "urls": ["https://www.udemy.com/"],
+  "plugins": []
+}

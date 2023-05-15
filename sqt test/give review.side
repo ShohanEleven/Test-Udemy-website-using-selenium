@@ -1,0 +1,128 @@
+{
+  "id": "6014bb9b-0816-4746-a36c-99abfd0d423f",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/home/my-courses/learning/",
+  "tests": [{
+    "id": "eb161c5b-7d6d-4ac5-9571-42ce15bff70c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "198070ce-8d7e-4900-911b-08c25265c2b2",
+    "name": "Giving review",
+    "commands": [{
+      "id": "c661693c-18b1-4e23-801f-823cd0c7ca51",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/home/my-courses/learning/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c49a731-48a3-4f6c-b517-3913eb444569",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eec5e2f-8baa-4647-84ba-af2f89d69613",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JavaScript Fundamentals",
+      "targets": [
+        ["linkText=JavaScript Fundamentals", "linkText"],
+        ["css=.ud-heading-md > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JavaScript Fundamentals')]", "xpath:link"],
+        ["xpath=//div[@id='tabs--1-content-0']/div/div/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course-dashboard-redirect/?course_id=548068')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JavaScript Fundamentals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de1e6f35-c767-4c9c-80e8-6e3633495e22",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.video-player--play-button--3r0KH",
+      "targets": [
+        ["css=.video-player--play-button--3r0KH", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div/div/main/div/div/div/div/div/div/div/div/div/div/div/section/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bed651b-b463-41d8-89b8-168860b350d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--ratings--BM7ev",
+      "targets": [
+        ["css=.header--ratings--BM7ev", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div/div/div/div/header/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Leave a rating')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a2f9009-26c4-4f72-bbfc-8d3971e2c7f0",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.review-stars-input--review-star-container--1IVTg:nth-child(5) > .review-stars-input--review-star--3Mt3A:nth-child(2) > .review-stars-input--star-filled--2fv-6 > use",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cf93648-61b8-49f2-be79-3ab25ef6c316",
+      "comment": "",
+      "command": "//click",
+      "target": "css=#form-group--250",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76e75eeb-14ba-46ad-8b84-b7e5790489a1",
+      "comment": "",
+      "command": "//type",
+      "target": "xpath=//div[2]/textarea",
+      "targets": [],
+      "value": "It was good"
+    }, {
+      "id": "fa55773e-2b07-4bf4-905c-c28ea15f1f82",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.ud-btn-primary:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a07ce40b-2056-42c6-ad87-d03a8e8fa0e3",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.ud-btn-primary > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43c7caa7-b34f-4b79-b317-7897caa8022f",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.ud-modal > div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d05289e-1ea2-4687-ad51-bdc8e95b1fa3",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "id=review-modal-title--97",
+      "targets": [],
+      "value": "Thanks for helping our community!"
+    }]
+  }],
+  "suites": [{
+    "id": "34a50e6e-07e8-4d1d-b0ca-32ea52f51fb8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb161c5b-7d6d-4ac5-9571-42ce15bff70c"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}

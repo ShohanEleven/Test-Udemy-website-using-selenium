@@ -1,0 +1,109 @@
+{
+  "id": "5e05b4ed-e6cf-4095-a75f-963a1d4e5099",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/home/my-courses/learning/",
+  "tests": [{
+    "id": "dade440a-2259-4d46-b56d-fd7af0859fe4",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "33c14a4e-a86b-40ad-9ba7-94070963c184",
+    "name": "Archived",
+    "commands": [{
+      "id": "1d84f2f9-c3b3-4739-86d0-90e4ca42dea1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/home/my-courses/learning/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76608c40-67ef-4ce6-a876-337248bfd550",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a402c93-afb0-4cfa-bcaa-ea58120a3de7",
+      "comment": "",
+      "command": "click",
+      "target": "id=tabs--1-tab-3",
+      "targets": [
+        ["id=tabs--1-tab-3", "id"],
+        ["linkText=Archived", "linkText"],
+        ["css=#tabs--1-tab-3", "css:finder"],
+        ["xpath=//a[@id='tabs--1-tab-3']", "xpath:attributes"],
+        ["xpath=//div[@id='scroll-port--2']/div[4]/div/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/archived/')]", "xpath:href"],
+        ["xpath=//div[4]/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Archived')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89111fd9-374e-4e67-96e8-05a864ff2715",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JavaScript Fundamentals",
+      "targets": [
+        ["linkText=JavaScript Fundamentals", "linkText"],
+        ["css=.ud-heading-md > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JavaScript Fundamentals')]", "xpath:link"],
+        ["xpath=//div[@id='tabs--1-content-3']/div/div/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course-dashboard-redirect/?course_id=548068')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JavaScript Fundamentals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bfde84a-d168-4b2b-a26e-58781b71f7fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=popper-trigger--165",
+      "targets": [
+        ["id=popper-trigger--165", "id"],
+        ["css=#popper-trigger--165", "css:finder"],
+        ["xpath=//button[@id='popper-trigger--165']", "xpath:attributes"],
+        ["xpath=//div[@id='playerId__7198058--16']/div/div[2]/div[2]/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d3b14ad-4955-4995-b43d-70d2f682bd4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header--header-title--2fB3e",
+      "targets": [
+        ["css=.header--header-title--2fB3e", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div/div/div/div/header/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "879a9733-9617-499c-9149-0f110e6f5782",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=JavaScript Fundamentals",
+      "targets": [
+        ["linkText=JavaScript Fundamentals", "linkText"],
+        ["css=.header--header-text--3Z4po", "css:finder"],
+        ["xpath=//a[contains(text(),'JavaScript Fundamentals')]", "xpath:link"],
+        ["xpath=//body[@id='udemy']/div/div/div/div/div/div/header/div[2]/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course/javascriptfundamentals/')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JavaScript Fundamentals')]", "xpath:innerText"]
+      ],
+      "value": "JavaScript Fundamentals"
+    }]
+  }],
+  "suites": [{
+    "id": "d2279b9c-f0bf-4853-8579-5ef4c660193a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dade440a-2259-4d46-b56d-fd7af0859fe4"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/course/python-the-complete-python-developer-course/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}

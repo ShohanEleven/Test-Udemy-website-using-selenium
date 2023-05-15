@@ -1,0 +1,297 @@
+{
+  "id": "5e05b4ed-e6cf-4095-a75f-963a1d4e5099",
+  "version": "2.0",
+  "name": "SQT",
+  "url": "https://www.udemy.com/",
+  "tests": [{
+    "id": "dade440a-2259-4d46-b56d-fd7af0859fe4",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "5d162556-550d-43f4-b483-3a713b265a90",
+    "name": "Coupon",
+    "commands": [{
+      "id": "d6671ae8-c014-4a69-b8d9-b4e5cb0e981b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07677874-bb24-48cd-8f23-4a75181f1f92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3106d030-4019-4ff7-9b0b-ad961fe60c2c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header--logo--rd7-H",
+      "targets": [
+        ["css=.header--logo--rd7-H", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97e87e27-8ec3-4844-b435-9ee654b996f0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header--logo--rd7-H",
+      "targets": [
+        ["css=.header--logo--rd7-H", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f1a91e6-54d9-43ab-9b6d-d20ed3c503bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header--flex-middle--2QeVR > img",
+      "targets": [
+        ["css=.header--flex-middle--2QeVR > img", "css:finder"],
+        ["xpath=//img[@alt='Udemy']", "xpath:img"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c82d4b48-49e2-445f-a48c-60f1a7fbf1f8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header--flex-middle--2QeVR > img",
+      "targets": [
+        ["css=.header--flex-middle--2QeVR > img", "css:finder"],
+        ["xpath=//img[@alt='Udemy']", "xpath:img"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b4475b1-d845-44f8-86c2-6d5902593a2d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//a[contains(@href, '/udemy-business/?locale=en_US&mx_pg=httpcachecontextsme-list&path=request-demo-mx%2F&ref=logged-in-nav')]",
+      "targets": [
+        ["id=u184-popper-trigger--10", "id"],
+        ["linkText=Udemy Business", "linkText"],
+        ["css=#u184-popper-trigger--10", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--10']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/udemy-business/?locale=en_US&mx_pg=httpcachecontextsme-list&path=request-demo-mx%2F&ref=logged-in-nav')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Udemy Business')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ce9b8e-2334-457b-aa81-a688904c6c7f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=u184-popper-trigger--10",
+      "targets": [
+        ["id=u184-popper-trigger--10", "id"],
+        ["linkText=Udemy Business", "linkText"],
+        ["css=#u184-popper-trigger--10", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--10']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/udemy-business/?locale=en_US&mx_pg=httpcachecontextsme-list&path=request-demo-mx%2F&ref=logged-in-nav')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Udemy Business')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "423a454e-3dab-437d-a5f2-82fd084b1be0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//body[@id='udemy']/div/div/div[4]/div[5]/a",
+      "targets": [
+        ["id=u184-popper-trigger--12", "id"],
+        ["linkText=My learning", "linkText"],
+        ["css=#u184-popper-trigger--12", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--12']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My learning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc25705-c0ab-41a5-b152-e47fea82c77b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=u184-popper-trigger--12",
+      "targets": [
+        ["id=u184-popper-trigger--12", "id"],
+        ["linkText=My learning", "linkText"],
+        ["css=#u184-popper-trigger--12", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--12']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My learning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a4333db-377c-4972-86b9-841728229c99",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//body[@id='udemy']/div/div/div[4]/div[5]/a",
+      "targets": [
+        ["id=u184-popper-trigger--12", "id"],
+        ["linkText=My learning", "linkText"],
+        ["css=#u184-popper-trigger--12", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--12']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My learning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f77478a-96d8-4405-ba51-4a9baba26ab0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//body[@id='udemy']/div/div/div[4]/div[6]/a",
+      "targets": [
+        ["id=u184-popper-trigger--14", "id"],
+        ["css=#u184-popper-trigger--14", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--14']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/wishlist/')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed0bcd4b-2e40-444e-b206-86dddb17c48a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=u184-popper-trigger--14",
+      "targets": [
+        ["id=u184-popper-trigger--14", "id"],
+        ["css=#u184-popper-trigger--14", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--14']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/wishlist/')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ea5f1a-9db9-4a60-8161-40a0164b3279",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//body[@id='udemy']/div/div/div[4]/div[6]/a",
+      "targets": [
+        ["id=u184-popper-trigger--14", "id"],
+        ["css=#u184-popper-trigger--14", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--14']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/my-courses/wishlist/')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "781fe84b-acad-4199-86e5-ad342652f34e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//body[@id='udemy']/div/div/div[4]/div[7]/a",
+      "targets": [
+        ["id=u184-popper-trigger--16", "id"],
+        ["linkText=1", "linkText"],
+        ["css=#u184-popper-trigger--16", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--16']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart/')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c4f27a5-541a-4758-89d6-4583382ba338",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=u184-popper-trigger--16",
+      "targets": [
+        ["id=u184-popper-trigger--16", "id"],
+        ["linkText=1", "linkText"],
+        ["css=#u184-popper-trigger--16", "css:finder"],
+        ["xpath=//a[@id='u184-popper-trigger--16']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[4]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart/')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "867512bf-edb5-4934-a29e-4a98cd6d475d",
+      "comment": "",
+      "command": "//click",
+      "target": "css=#u184-popper-trigger--16 > .ud-icon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86f46c72-5028-4141-886d-fecd74fd1492",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//body[@id='udemy']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div[3]/form/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8add5bc0-4d92-4cf0-a881-fac9c89eb2aa",
+      "comment": "",
+      "command": "//type",
+      "target": "xpath=//div[@id='u71-popper-trigger--97']/div/div[2]/h3/a",
+      "targets": [],
+      "value": "JUST4U0222"
+    }, {
+      "id": "c2d9af92-10ae-410c-b1b2-7f83d9a39f77",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//form/button/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b263146-756e-4226-81f4-a41e1b270003",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//body[@id='udemy']/div/div[2]/div/div/div[3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6074273f-31b8-4268-9aa9-73af348d8343",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=.coupon-form--code-error--gH4QP",
+      "targets": [],
+      "value": "The coupon code entered is not valid for this course."
+    }, {
+      "id": "06dbe741-3177-4e0e-8fd7-e65e7821b6d2",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=#u86-popper-trigger--47 a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fbcb3ae-410d-4e9d-bba2-1b5646cc4a5f",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=#u86-popper-trigger--47 a",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d2279b9c-f0bf-4853-8579-5ef4c660193a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dade440a-2259-4d46-b56d-fd7af0859fe4"]
+  }],
+  "urls": ["https://www.udemy.com/", "https://www.udemy.com/course/python-the-complete-python-developer-course/", "https://www.udemy.com/home/my-courses/learning/"],
+  "plugins": []
+}
